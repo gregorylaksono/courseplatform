@@ -1,0 +1,16 @@
+
+:host{
+    width: 215px;
+    display: table-cell;
+    text-align: center;
+    padding: 0px 5px;
+    height: 60px;
+}
+:host a{
+    
+}
+@media only screen and (max-width:700px){
+    :host{
+        display: inline-block;
+    }
+}

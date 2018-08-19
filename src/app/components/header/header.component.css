@@ -1,0 +1,65 @@
+.hidden-xs input {
+    width: initial !important;
+    display: inline;
+}
+.hidden-xs svg{
+    margin-right: 10px;
+}
+
+.hidden-xs input{
+    background-color: transparent !important;
+    border: none !important;
+
+}
+
+.main-color{
+    background: #f2a225;
+    background: linear-gradient(to right, #f2a225 1%, #ffbb51 100%);
+}
+.main-color a,
+.main-color svg,
+.main-color input,
+.main-color ::placeholder{
+    color:rgba(255, 255, 255, .7) !important;
+}
+.form-control:focus{
+    border-color: none;
+    box-shadow:none;
+}
+.right-side a:first-child{
+    border:1px solid rgba(255, 255, 255, .2);    
+}
+.right-side a:hover{
+    background: rgba(0, 0, 0, .1);
+}
+.navbar-nav.ml-auto > li{
+    padding:10px;
+  }
+.dropdown-menu.show{
+    background:white;
+    border-color: rgba(255, 255, 255, .2);
+    box-shadow: 5px 1px 40px rgba(0, 0, 0, .1);
+}
+.dropdown-menu > a{
+    color: #8d9498 !important;
+    
+}
+.navbar-nav .nav-item a{
+    display: block !important;
+}
+.borderless-button{
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border: 1px solid rgba(255, 255, 255, .2);
+    padding: .375rem .75rem;
+}
+.borderless-button:hover{
+    text-decoration: none;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    color:#f7f7f7 !important;
+}

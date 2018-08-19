@@ -1,0 +1,23 @@
+
+          
+          <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item"><img src="assets/images/heading-bg/slide2.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/images/heading-bg/slide3.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/images/heading-bg/slide4.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/images/heading-bg/slide6.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/images/heading-bg/slide1.jpg" alt="Owl Image"></div>
+            <div class="item"><img src="assets/images/heading-bg/slide3.jpg" alt="Owl Image"></div>
+          </div>
+
+          <div class="hot-course">
+            <span>Kursus terfavorit</span>
+            <app-course-item *ngFor="let c of courses" [course]="c"></app-course-item>
+          </div>
+
+          <div class="hot-categories">
+              <span>Category terfavorit</span>
+              <div class="cat-section">
+              <app-category-item *ngFor="let cat of categories" [category]="cat" ></app-category-item>
+            </div>
+          </div>
+        <app-footer [companyInfo]="companyInfo"></app-footer>

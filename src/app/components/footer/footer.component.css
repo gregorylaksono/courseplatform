@@ -1,0 +1,18 @@
+:host{
+    background-color: #f2a225;
+    height: 145px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    padding:10px 20px;
+    color: white;
+}
+#company-info-footer{
+    position: relative;
+    float: right;
+    font-size: 10px;
+}
+#company-info-footer p{
+    padding: 0px;
+}
+

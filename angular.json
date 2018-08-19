@@ -23,9 +23,28 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css",
+              "src/assets/plugins/owl.carousel/owl.carousel.min.css",
+              "src/assets/plugins/owl.carousel/owl.theme.default.css",
+              "src/assets/plugins/ion-rangeslider/css/ion.rangeSlider.css",
+              "src/assets/plugins/ion-rangeslider/css/ion.rangeSlider.skinModern.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/style.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/@fortawesome/fontawesome-free/js/all.js",
+              "src/assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js",
+              "src/assets/plugins/gallery/js/animated-masonry-gallery.js",
+              "src/assets/plugins/gallery/js/jquery.isotope.min.js",
+              "src/assets/plugins/knob/jquery.knob.js",
+              "src/assets/plugins/owl.carousel/owl.carousel.min.js",
+              "src/assets/plugins/ion-rangeslider/js/ion-rangeSlider/ion.rangeSlider.min.js"
+            ]
           },
           "configurations": {
             "production": {

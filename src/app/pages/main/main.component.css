@@ -1,0 +1,47 @@
+.hot-course{
+    display: block;
+    margin: 0 auto;
+   text-align: center;
+}
+.hot-categories{
+    text-align: center;
+    height: 300px;
+    
+}
+.hot-categories span,
+.hot-course span{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.cat-section{
+    padding-top:40px;
+}
+:host{
+    background-color:rgb(244, 248, 249);
+    height: 625px;
+    padding-bottom: 10px;
+   
+}
+@media only screen and (max-width:700px){
+    :host{
+            display: block;
+            width: 100%;
+            position: fixed;
+            overflow-y: scroll;
+    }
+
+    .hot-course{
+        margin: 0 auto;    
+    }
+
+    .hot-categories{
+        height: initial;
+    }
+    .cat-section{
+        padding: initial;
+    }
+}
