@@ -11,10 +11,12 @@ import { CategoryItemComponent } from './components/category-item/category-item.
 import { FooterComponent } from './components/footer/footer.component';
 import { SharedModule } from './shared/shared/shared.module';
 
+
 const appRoutes : Routes = [
   {path: '', redirectTo: 'main', pathMatch: 'full' },
   {path:'main', component:MainComponent},
-  {path:'courses', loadChildren:'./pages/list-course/list-course.module#ListCourseModule'}
+  {path:'courses', loadChildren:'./pages/list-course/list-course.module#ListCourseModule'},
+  {path:'course', loadChildren:'./pages/course-detail/course-detail.module#CourseDetailModule'}
 ];
 @NgModule({
   declarations: [

@@ -1,3 +1,4 @@
+import { CourseDetailComponent } from './../../pages/course-detail/course-detail.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CourseItemComponent } from '../../components/course-item/course-item.component';
@@ -24,7 +25,8 @@ import { ListCourseComponent } from '../../pages/list-course/list-course.compone
       FooterComponent,
       ListCourseComponent,
       SearchFilterComponent,
-      ListSearchCourseComponent
+      ListSearchCourseComponent,
+      CourseDetailComponent
     ],
     exports:[
       CourseItemComponent,
@@ -32,7 +34,8 @@ import { ListCourseComponent } from '../../pages/list-course/list-course.compone
       FooterComponent,
       ListCourseComponent,
       SearchFilterComponent,
-      ListSearchCourseComponent
+      ListSearchCourseComponent,
+      CourseDetailComponent
     ]
 
 })

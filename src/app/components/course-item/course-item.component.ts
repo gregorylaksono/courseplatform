@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Course } from '../../model/course';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-course-item',
@@ -10,9 +11,13 @@ export class CourseItemComponent implements OnInit {
 
   @Input() course:Course;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+    
   }
 
+  selectCourse(){
+    this.router.navigate(["course","3"]);
+  }
 }

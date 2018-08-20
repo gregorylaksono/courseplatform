@@ -1,0 +1,9 @@
+.header{
+    padding: 10px;
+}
+.course-price-section button{
+    display: block;
+}
+:host{
+    height: 100%;
+}

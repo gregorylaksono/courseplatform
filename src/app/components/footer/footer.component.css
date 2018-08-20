@@ -3,6 +3,7 @@
     height: 145px;
     width: 100%;
     position: absolute;
+    bottom: 0px;
     display: block;
     padding:10px 20px;
     color: white;
